@@ -1,0 +1,9 @@
+Material de clase - Aprendizaje supervisado de clasificación
+
+Archivos:
+- 01_modelo_fuga_clientes.ipynb + clientes_churn.csv
+- 02_recomendador_categorias.ipynb + clientes_categorias.csv
+
+Los datasets son sintéticos y fueron creados con fines educativos.
+Los notebooks están ejecutados, comentados y contienen preguntas de repaso con respuestas.
+Para volver a ejecutarlos, mantenga cada notebook en la misma carpeta que su CSV.
