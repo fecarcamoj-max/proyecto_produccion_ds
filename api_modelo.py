@@ -26,6 +26,14 @@ def index():
     return FileResponse(Path(__file__).parent / "index.html")
 
 
+@app.get("/app.js", include_in_schema=False)
+def frontend_script():
+    return FileResponse(
+        Path(__file__).parent / "app.js",
+        media_type="application/javascript",
+    )
+
+
 class Cliente(BaseModel):
     model_config = ConfigDict(extra="forbid")
     tenure: float
