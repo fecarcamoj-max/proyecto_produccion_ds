@@ -1,4 +1,5 @@
-const API_URL = "http://127.0.0.1:8000/predict";
+// URL relativa: funciona en localhost, Docker y detrás de un proxy HTTPS.
+const API_URL = "/predict";
 
 document.querySelector("#consultar").addEventListener("click", async () => {
   const form = document.querySelector("#form-cliente");
